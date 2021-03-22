@@ -24,7 +24,7 @@ module.exports = {
             {
                 test: /\.(css|less)$/,
                 use: [{
-                        loader: "style-loader",
+                        loader: "vue-style-loader",
                     },
                     {
                         loader: "css-loader",
@@ -59,7 +59,7 @@ module.exports = {
     },
     output: {
         filename: 'bundle.js',
-        path: path.resolve(__dirname, './dist'),
+        path: path.resolve(__dirname, '../dist'),
         clean: true,
     },
     plugins: [
