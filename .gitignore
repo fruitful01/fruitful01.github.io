@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+npm-debug.log
+.idea/
+package-lock.json
+.history
+*error.log
+yarn.lock
